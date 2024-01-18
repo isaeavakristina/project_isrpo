@@ -15,28 +15,13 @@ using System.Windows.Shapes;
 namespace project_isrpo
 {
     /// <summary>
-    /// Логика взаимодействия для Autor.xaml
+    /// Логика взаимодействия для Account.xaml
     /// </summary>
-    public partial class Autor : Window
+    public partial class Account : Window
     {
-        public Autor()
+        public Account()
         {
             InitializeComponent();
-        }
-
-        private void EyeBtn(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void create_an_acc(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void log_in(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

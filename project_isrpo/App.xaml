@@ -4,6 +4,44 @@
              xmlns:local="clr-namespace:project_isrpo"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+
+            <Style x:Key="Text1" TargetType="TextBlock">
+
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="FontSize" Value="78"/>
+                <Setter Property="FontWeight" Value="Black"/>
+                <Setter Property="FontFamily" Value="Bauhaus 93"/>
+
+            </Style>
+
+            <Style x:Key="input" TargetType="TextBox">
+
+                <Setter Property="Foreground" Value="#FF312528"/>
+                <Setter Property="Opacity" Value="0.5"/>
+                <Setter Property="FontFamily" Value="Bauhaus 93"/>
+                <Setter Property="Width" Value="500"/>
+                <Setter Property="Height" Value="90"/>
+                <Setter Property="FontSize" Value="70"/>
+                <Setter Property="TextAlignment" Value="Center"/>
+                <Setter Property="Background" Value="White"/>
+
+
+            </Style>
+
+            <Style x:Key="Buttons" TargetType="Button">
+
+                <Setter Property="Foreground" Value="#FF312528"/>
+                <Setter Property="Opacity" Value="0.9"/>
+                <Setter Property="FontSize" Value="45"/>
+                <Setter Property="FontWeight" Value="Black"/>
+                <Setter Property="FontFamily" Value="Bauhaus 93"/>
+                <Setter Property="Width" Value="200"/>
+                <Setter Property="Height" Value="60"/>
+
+            </Style>
+
+
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
